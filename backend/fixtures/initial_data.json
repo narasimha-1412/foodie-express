@@ -1,0 +1,31 @@
+[
+  {
+    "model": "restaurants.restaurant",
+    "pk": 1,
+    "fields": {
+      "name": "Pizza Palace",
+      "description": "Cheesy pizzas",
+      "image_url": "https://images.unsplash.com/photo-1548365328-7ae9c2f9d6a7"
+    }
+  },
+  {
+    "model": "restaurants.menuitem",
+    "pk": 1,
+    "fields": {
+      "restaurant": 1,
+      "name": "Margherita",
+      "price": "8.99",
+      "image_url": "https://images.unsplash.com/photo-1601924582971-d0f7b9b16c9c"
+    }
+  },
+  {
+    "model": "restaurants.menuitem",
+    "pk": 2,
+    "fields": {
+      "restaurant": 1,
+      "name": "Pepperoni",
+      "price": "10.50",
+      "image_url": "https://images.unsplash.com/photo-1550547660-d9450f859349"
+    }
+  }
+]
